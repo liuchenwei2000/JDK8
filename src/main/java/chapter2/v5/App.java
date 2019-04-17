@@ -2,12 +2,8 @@ package chapter2.v5;
 
 import chapter2.Apple;
 
-import java.awt.*;
-import java.awt.event.ActionEvent;
 import java.util.ArrayList;
 import java.util.List;
-
-import static chapter2.v4.App.filter;
 
 /**
  * 行为参数化是一个很有用的模式，它能够轻松地适应不断变化的需求。

@@ -3,8 +3,6 @@ package chapter5;
 import java.util.Arrays;
 import java.util.List;
 
-import static java.util.stream.Collectors.toList;
-
 /**
  * 映射示例
  * <p>
