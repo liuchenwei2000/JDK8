@@ -1,10 +1,5 @@
 package chapter2;
 
-/**
- * <p>
- * <p>
- * Created by liuchenwei on 2019-04-15.
- */
 public class Apple {
 
     private String color;
