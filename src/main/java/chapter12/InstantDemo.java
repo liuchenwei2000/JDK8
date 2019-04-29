@@ -25,5 +25,6 @@ public class InstantDemo {
 
         Instant now = Instant.now();
         System.out.println(now);
+        System.out.println(now.getEpochSecond());
     }
 }
