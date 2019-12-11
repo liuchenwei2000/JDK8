@@ -39,5 +39,12 @@ public class CollectorsGroupDemo {
                 )
         );
         System.out.println(dishesByTypeCaloricLevel);
+
+        // list to map<key,list>
+
+        Map<Dish.Type, List<Integer>> map = dishes.stream().collect(Collectors.groupingBy(Dish::getType, Collectors.mapping(Dish::getCalories, Collectors.toList())));
+        for (Dish.Type type : map.keySet()) {
+            System.out.println(type + "=" + map.get(type));
+        }
     }
 }
